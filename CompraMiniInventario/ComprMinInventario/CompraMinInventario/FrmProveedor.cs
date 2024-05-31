@@ -7,16 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Modelos;
 namespace CompraMinInventario
 {
     public partial class FrmProveedor : Form
     {
-        private Conexion.DBProveedores proveedores;
 
-        public FrmProveedor()
+        private Conexion.DBProveedores proveedores;
+        public FrmProveedor(objProveedores modelo)
         {
             InitializeComponent();
+            proveedores = new Conexion.DBProveedores();
         }
 
         private void btnEnvia_Click(object sender, EventArgs e)
@@ -55,13 +56,11 @@ namespace CompraMinInventario
                     return;
                 }
 
-
                 int id = string.IsNullOrEmpty(txtid.Text) ? 0 : Convert.ToInt32(txtid.Text);
                 int Nit = string.IsNullOrEmpty(txtbxNit.Text) ? 0 : Convert.ToInt32(txtbxNit.Text);
                 int Tele = string.IsNullOrEmpty(txtbxTele.Text) ? 0 : Convert.ToInt32(txtbxTele.Text);
 
-
-                bool rs = proveedores.Guardar(id, txtbxNombre.Text, Nit, Tele, txtbxCiudad.Text, txtbxCorreo.Text);
+                bool rs = proveedores.Guardar(id, txtbxNombre.Text, Nit, txtbxCiudad.Text, Tele, txtbxCorreo.Text);
 
                 if (rs)
                 {
