@@ -47,7 +47,7 @@ namespace Conexion
             }
             return rs;
         }
-
+        //buscar
         public ObjProductos Buscar(string codigo)
         {
             ObjProductos rs = null;
