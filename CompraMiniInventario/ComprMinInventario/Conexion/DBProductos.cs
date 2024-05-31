@@ -9,7 +9,7 @@ using System.Data;
 
 namespace Conexion
 {
-    class DBProductos:ConexDB
+    public class DBProductos:ConexDB
     {
         public bool Guardar(int id, string NombreProducto, int Codigo,  int Costo, string Garantia, string Cantidad)
         {

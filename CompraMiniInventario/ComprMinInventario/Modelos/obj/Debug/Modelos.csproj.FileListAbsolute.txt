@@ -1,0 +1,6 @@
+C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Modelos\bin\Debug\Modelos.dll
+C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Modelos\bin\Debug\Modelos.pdb
+C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Modelos\obj\Debug\Modelos.dll
+C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Modelos\obj\Debug\Modelos.pdb

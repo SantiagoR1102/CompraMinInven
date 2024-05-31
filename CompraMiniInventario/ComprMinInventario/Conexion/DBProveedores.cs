@@ -9,22 +9,22 @@ using System.Data;
 
 namespace Conexion
 {
-    class DBProveedores:ConexDB
+    public class DBProveedores:ConexDB
     {
 
         //Guardar--------------------------------------------------------------
-        public bool Guardar(int id, string Nombre, int Nit, int Ciudad, string Telefono, string Correo)
+        public bool Guardar(int id, string NombreProveedor, int Nit, int Ciudad, string Telefono, string Correo)
         {
             string query = id > 0 ?
-                "UPDATE Productos SET Nombre=@Nombre, Nit=@Nit, Ciudad=@Ciudad, Telefono=@Telefono, Correo=@Correo WHERE Id=@Id" :
-                "INSERT INTO Productos (Nombre,Nit, Ciudad, Telefono, Correo) VALUES (@Nombre, @Nit , @Ciudad, @Telefono, @Correo)";
+                "UPDATE Productos SET NombreProveedor=@NombreProveedor, Nit=@Nit, Ciudad=@Ciudad, Telefono=@Telefono, Correo=@Correo WHERE Id=@Id" :
+                "INSERT INTO Productos (NombreProveedor,Nit, Ciudad, Telefono, Correo) VALUES (@NombreProveedor, @Nit , @Ciudad, @Telefono, @Correo)";
 
             bool rs = false;
             try
             {
                 List<SqlParameter> parameters = new List<SqlParameter>
                 {
-                    new SqlParameter("@Nombre", Nombre),
+                    new SqlParameter("@Nombre", NombreProveedor),
                     new SqlParameter("@Nit", Nit),
                     new SqlParameter("@Ciudad", Ciudad),
                     new SqlParameter("@Telefono", Telefono),
