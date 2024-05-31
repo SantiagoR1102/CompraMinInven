@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-    class objProductos:objBase
+    public class ObjProductos : objBase
     {
         public string Codigo { get; set; }
         public int Costo { get; set; }

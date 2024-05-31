@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexDB.cs" />
+    <Compile Include="DBIva.cs" />
+    <Compile Include="DBProductos.cs" />
+    <Compile Include="DBProveedores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

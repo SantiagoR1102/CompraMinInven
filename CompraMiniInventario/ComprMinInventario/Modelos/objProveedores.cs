@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-    class objProveedores:objBase
+    public class objProveedores:objBase
     {
         public int Nit { get; set; }
         public string Ciudad { get; set; }
@@ -14,4 +14,6 @@ namespace Modelos
         public string Correo { get; set; }
 
     }
+
+    //int id, string Nombre, int Nit, int Ciudad, string Telefono, string Correo
 }

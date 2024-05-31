@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-    class objIva:objBase
+    public class objIva:objBase
     {
         public int Porcentaje { get; set; }
     }
