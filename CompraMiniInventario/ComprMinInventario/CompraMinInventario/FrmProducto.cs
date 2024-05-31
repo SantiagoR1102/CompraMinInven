@@ -70,7 +70,7 @@ namespace CompraMinInventario
 
                 int id = string.IsNullOrEmpty(txtbxid.Text) ? 0 : Convert.ToInt32(txtbxid.Text);
 
-                bool rs = productos.Guardar(id, txtbxDesc.Text, txtbxCodigo.Text, costo, txtbxGarantia.Text, txtbxCantidad.Text);
+                bool rs = productos.Guardar(id, txtbxDesc.Text, txtbxCodigo.Text, costo, txtbxGarantia.Text, cantidad.ToString());
 
                 if (rs)
                 {

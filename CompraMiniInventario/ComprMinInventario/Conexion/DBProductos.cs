@@ -9,7 +9,7 @@ using System.Data;
 
 namespace Conexion
 {
-    public class DBProductos:ConexDB
+    public class DBProductos : ConexDB
     {
         public bool Guardar(int id, string NombreProducto, string Codigo, int Costo, string Garantia, string Cantidad)
         {
@@ -22,12 +22,11 @@ namespace Conexion
             {
                 List<SqlParameter> parameters = new List<SqlParameter>
                 {
-                    new SqlParameter("@Nombre", NombreProducto),
+                    new SqlParameter("@NombreProducto", NombreProducto),
                     new SqlParameter("@Codigo", Codigo),
-                    new SqlParameter("@Precio", Costo),
+                    new SqlParameter("@Costo", Costo),
                     new SqlParameter("@Garantia", Garantia),
                     new SqlParameter("@Cantidad", Cantidad)
-
                 };
 
                 if (id > 0)
@@ -49,8 +48,6 @@ namespace Conexion
             return rs;
         }
 
-
-
         public ObjProductos Buscar(string codigo)
         {
             ObjProductos rs = null;
@@ -64,8 +61,8 @@ namespace Conexion
                     new SqlParameter("@Codigo", codigo)
                 };
 
-                sqlCommand = COMANDO(query, parameters);
-                dataTable = DATATABLE(sqlCommand);
+                SqlCommand sqlCommand = COMANDO(query, parameters);
+                DataTable dataTable = DATATABLE(sqlCommand);
 
                 if (dataTable != null && dataTable.Rows.Count > 0)
                 {
@@ -127,7 +124,7 @@ namespace Conexion
             bool rs = false;
             try
             {
-                sqlCommand = COMANDO("DELETE FROM Productos WHERE Id=@Id", new List<SqlParameter> { new SqlParameter("@Id", id) });
+                SqlCommand sqlCommand = COMANDO("DELETE FROM Productos WHERE Id=@Id", new List<SqlParameter> { new SqlParameter("@Id", id) });
                 rs = Convert.ToBoolean(EJECUTAR_COMANDO(sqlCommand));
             }
             catch (Exception e)

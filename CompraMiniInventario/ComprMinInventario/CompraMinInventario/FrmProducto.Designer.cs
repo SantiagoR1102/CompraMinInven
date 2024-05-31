@@ -67,7 +67,7 @@ namespace CompraMinInventario
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(609, 605);
+            this.panel1.Size = new System.Drawing.Size(611, 539);
             this.panel1.TabIndex = 0;
             // 
             // button1
@@ -101,6 +101,8 @@ namespace CompraMinInventario
             // 
             // btnEnvia
             // 
+            this.btnEnvia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEnvia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnvia.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnvia.Location = new System.Drawing.Point(201, 448);
             this.btnEnvia.Name = "btnEnvia";
@@ -187,14 +189,14 @@ namespace CompraMinInventario
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(609, 100);
+            this.panel2.Size = new System.Drawing.Size(611, 81);
             this.panel2.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 33);
+            this.label2.Location = new System.Drawing.Point(15, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(147, 35);
             this.label2.TabIndex = 2;
@@ -214,7 +216,7 @@ namespace CompraMinInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 605);
+            this.ClientSize = new System.Drawing.Size(611, 539);
             this.Controls.Add(this.panel1);
             this.Name = "FrmProducto";
             this.Text = "FrmProducto";
