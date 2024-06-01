@@ -7,3 +7,12 @@ C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInvent
 C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.csproj.CopyComplete
 C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.dll
 C:\Users\sistemas-2\Documents\CompraMinInven\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.pdb
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\bin\Debug\Conexion.dll
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\bin\Debug\Conexion.pdb
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\bin\Debug\Modelos.dll
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\bin\Debug\Modelos.pdb
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.csproj.AssemblyReference.cache
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.csproj.CoreCompileInputs.cache
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.csproj.CopyComplete
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.dll
+C:\Users\Santi\Documents\CompraMinInventario\CompraMiniInventario\ComprMinInventario\Conexion\obj\Debug\Conexion.pdb
