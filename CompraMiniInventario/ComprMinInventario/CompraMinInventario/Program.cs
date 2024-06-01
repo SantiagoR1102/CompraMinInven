@@ -16,7 +16,7 @@ namespace CompraMinInventario
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmProveedor());
+            Application.Run(new FrmProducto(null));
         }
     }
 }
